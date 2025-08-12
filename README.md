@@ -1,1 +1,2 @@
 "# Labs" 
+This contains the lab assignments of Semester II (Bachelors of Electrical Enginnering)
