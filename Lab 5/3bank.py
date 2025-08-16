@@ -3,16 +3,16 @@ class BankAccount:
         self.account_holder=account_holder
         self.account_number=account_number
         self.balance=balance
-
-
+    def details(self):
+        print("Account_Holder=",self.account_holder)
+        print("Account_Number=",self.account_number)
+        print("Balance=",self.balance)
     def deposit(self,amount):
         if amount>0:
             self.balance=self.balance+amount
             print(f" An amount of Rs.{amount} has been deposited succesfully")
         else:
             print("Deposit must be positive")
-
-        
 
     def withdraw(self,amount):
          if (self.balance>amount):
@@ -24,10 +24,12 @@ class BankAccount:
 
 
     def show_balance(self):
-        print(f"The remaining balance is {self.balance}")
+        print(f"The current balance is {self.balance}")
 
-    
-bank_details=BankAccount("Shreeyon Nepal",55577123,100000)
-bank_details.deposit(50000)
-bank_details.withdraw(80000)
-bank_details.show_balance()
+b1=BankAccount("Shriyon",1234,1000)
+b1.details()
+b1.deposit(1000)
+b1.withdraw(500)
+b1.show_balance()
+b1.details()
+
