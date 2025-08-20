@@ -13,3 +13,4 @@ s2=Student("Binupa Dhunagan",98)
 s2.show_details()
 s3=Student("Min Bahadur Gurung",88)
 s3.show_details()
+

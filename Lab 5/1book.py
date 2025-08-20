@@ -10,10 +10,11 @@ class Book:
         print("Price =",self.price)
 
     def update_price(self,new_price):
-        self.new_price=new_price
+        self.price=new_price
 
 b1=Book("Teen Ghumti","B.P. Koirala",1200)
 b1.display_info()
 b1.update_price(1000)
-print("Updated price=",b1.new_price)
+print("Updated price=",b1.price)
 b1.display_info()
+
