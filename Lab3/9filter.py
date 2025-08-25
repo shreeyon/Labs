@@ -4,4 +4,3 @@ a=[10,15,20,25,30]
 print("The original list is:")
 print(a)
 print(list(filter(lambda x:x%10==0,a)))
-

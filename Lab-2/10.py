@@ -7,3 +7,4 @@ for char in sentence:
         used_vowels.add(char.lower())
 
 print(used_vowels)
+
